@@ -70,6 +70,13 @@ We experimented with several algorithms to find the best balance between Precisi
 **Evaluation Metrics:**
 Since predicting "Stayers" as "Leavers" is less costly than missing a "Leaver", we prioritized **Recall** and **F1-Score** over simple Accuracy.
 
+<p align="center">
+  <img src="img/ROC.PNG" alt="ROC">
+  <br>
+  <em>Figure: ROC Curve comparing the performance of different algorithms.</em>
+</p>
+
+
 ---
 
 ## 📈 Key Insights & Results
@@ -79,12 +86,6 @@ Our analysis highlighted the top drivers of attrition:
 1.  **OverTime:** Employees working overtime are significantly more likely to leave.
 2.  **Monthly Income:** Lower income brackets show higher instability.
 3.  **Age & Tenure:** Younger employees with lower tenure are the most volatile group.
-
-<p align="center">
-  <img src="img/ROC.PNG" alt="ROC">
-  <br>
-  <em>Figure: ROC Curve comparing the performance of different algorithms.</em>
-</p>
 
 ---
 
